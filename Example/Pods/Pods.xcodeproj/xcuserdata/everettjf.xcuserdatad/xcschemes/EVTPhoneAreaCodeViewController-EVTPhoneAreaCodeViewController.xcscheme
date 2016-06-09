@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '12EB0CF10CA12604B8A6AA7CB8B04E9E'
+               BlueprintIdentifier = 'C2A18C27E461911C258F93C60D3D3674'
                BlueprintName = 'EVTPhoneAreaCodeViewController-EVTPhoneAreaCodeViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'EVTPhoneAreaCodeViewController.bundle'>

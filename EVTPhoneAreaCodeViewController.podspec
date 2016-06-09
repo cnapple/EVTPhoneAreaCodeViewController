@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EVTPhoneAreaCodeViewController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EVTPhoneAreaCodeViewController.'
+  s.summary          = 'Phone Area Code Select View Controller for iOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Easy add Phone Area Code Select Feature to your iOS App.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/EVTPhoneAreaCodeViewController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/everettjf/EVTPhoneAreaCodeViewController'
+  s.screenshots     = 'https://everettjf.github.io/stuff/areacode/areacode1.png', 'https://everettjf.github.io/stuff/areacode/areacode2.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'everettjf' => 'everettjf@live.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/EVTPhoneAreaCodeViewController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/everettjf/EVTPhoneAreaCodeViewController.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/everettjf'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'EVTPhoneAreaCodeViewController/Classes/**/*'
   
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
     'EVTPhoneAreaCodeViewController' => ['EVTPhoneAreaCodeViewController/Assets/*.txt']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Masonry', '~> 1.0'
 end

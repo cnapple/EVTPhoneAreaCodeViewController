@@ -1,6 +1,0 @@
-framework module Pods_EVTPhoneAreaCodeViewController_Example {
-  umbrella header "Pods-EVTPhoneAreaCodeViewController_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

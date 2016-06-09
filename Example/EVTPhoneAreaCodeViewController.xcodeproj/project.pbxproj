@@ -20,10 +20,11 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		78525B6FC79C3F2495238876 /* Pods_EVTPhoneAreaCodeViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323C0FBB2F4E238FD4CBE7BB /* Pods_EVTPhoneAreaCodeViewController_Tests.framework */; };
-		84A112D15E2526865A4AFD4D /* Pods_EVTPhoneAreaCodeViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6113C0C35AAE8048570777ED /* Pods_EVTPhoneAreaCodeViewController_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AAB670771010DAF6702E8998 /* libPods-EVTPhoneAreaCodeViewController_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE82B6377C073BC73DBC3AD /* libPods-EVTPhoneAreaCodeViewController_Example.a */; };
+		B0F9B5E2DAC3ECBDD25306A1 /* libPods-EVTPhoneAreaCodeViewController_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 973DA8448589B408AA645E82 /* libPods-EVTPhoneAreaCodeViewController_Tests.a */; };
 		D1D3FEF61D09E51E00CC2231 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D3FEF51D09E51E00CC2231 /* Launch.storyboard */; };
+		D1D3FF031D09F19C00CC2231 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D3FF021D09F19C00CC2231 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		1EC4F858B07A06CF8260825D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		323C0FBB2F4E238FD4CBE7BB /* Pods_EVTPhoneAreaCodeViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVTPhoneAreaCodeViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7B38AC317E4AD8A2DED15F /* Pods-EVTPhoneAreaCodeViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTPhoneAreaCodeViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EVTPhoneAreaCodeViewController_Tests/Pods-EVTPhoneAreaCodeViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5CE82B6377C073BC73DBC3AD /* libPods-EVTPhoneAreaCodeViewController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVTPhoneAreaCodeViewController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* EVTPhoneAreaCodeViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVTPhoneAreaCodeViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +60,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6113C0C35AAE8048570777ED /* Pods_EVTPhoneAreaCodeViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVTPhoneAreaCodeViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8D3D692132B4A1EAD577FCBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		973DA8448589B408AA645E82 /* libPods-EVTPhoneAreaCodeViewController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVTPhoneAreaCodeViewController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A621E7C9BD0FAC5E4CBEDD98 /* Pods-EVTPhoneAreaCodeViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTPhoneAreaCodeViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EVTPhoneAreaCodeViewController_Example/Pods-EVTPhoneAreaCodeViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BDFAE8699C6EED8560607811 /* EVTPhoneAreaCodeViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EVTPhoneAreaCodeViewController.podspec; path = ../EVTPhoneAreaCodeViewController.podspec; sourceTree = "<group>"; };
 		BE3E5405BE1EADC056AC5153 /* Pods-EVTPhoneAreaCodeViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTPhoneAreaCodeViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EVTPhoneAreaCodeViewController_Tests/Pods-EVTPhoneAreaCodeViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1D3FEF51D09E51E00CC2231 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		D1D3FF021D09F19C00CC2231 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EVTPhoneAreaCodeViewController_Example/Images.xcassets; sourceTree = "<group>"; };
 		FAABF5EE76EB7B06B13A7510 /* Pods-EVTPhoneAreaCodeViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVTPhoneAreaCodeViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EVTPhoneAreaCodeViewController_Example/Pods-EVTPhoneAreaCodeViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				84A112D15E2526865A4AFD4D /* Pods_EVTPhoneAreaCodeViewController_Example.framework in Frameworks */,
+				AAB670771010DAF6702E8998 /* libPods-EVTPhoneAreaCodeViewController_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +90,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				78525B6FC79C3F2495238876 /* Pods_EVTPhoneAreaCodeViewController_Tests.framework in Frameworks */,
+				B0F9B5E2DAC3ECBDD25306A1 /* libPods-EVTPhoneAreaCodeViewController_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +100,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				D1D3FF021D09F19C00CC2231 /* Images.xcassets */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for EVTPhoneAreaCodeViewController */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -123,8 +126,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				6113C0C35AAE8048570777ED /* Pods_EVTPhoneAreaCodeViewController_Example.framework */,
-				323C0FBB2F4E238FD4CBE7BB /* Pods_EVTPhoneAreaCodeViewController_Tests.framework */,
+				5CE82B6377C073BC73DBC3AD /* libPods-EVTPhoneAreaCodeViewController_Example.a */,
+				973DA8448589B408AA645E82 /* libPods-EVTPhoneAreaCodeViewController_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				D1D3FF031D09F19C00CC2231 /* Images.xcassets in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				D1D3FEF61D09E51E00CC2231 /* Launch.storyboard in Resources */,
@@ -516,9 +520,11 @@
 			baseConfigurationReference = FAABF5EE76EB7B06B13A7510 /* Pods-EVTPhoneAreaCodeViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController-Prefix.pch";
 				INFOPLIST_FILE = "EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -531,9 +537,11 @@
 			baseConfigurationReference = A621E7C9BD0FAC5E4CBEDD98 /* Pods-EVTPhoneAreaCodeViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController-Prefix.pch";
 				INFOPLIST_FILE = "EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

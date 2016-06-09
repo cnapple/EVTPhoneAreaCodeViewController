@@ -1,15 +1,27 @@
 # EVTPhoneAreaCodeViewController
 
-[![CI Status](http://img.shields.io/travis/everettjf/EVTPhoneAreaCodeViewController.svg?style=flat)](https://travis-ci.org/everettjf/EVTPhoneAreaCodeViewController)
-[![Version](https://img.shields.io/cocoapods/v/EVTPhoneAreaCodeViewController.svg?style=flat)](http://cocoapods.org/pods/EVTPhoneAreaCodeViewController)
-[![License](https://img.shields.io/cocoapods/l/EVTPhoneAreaCodeViewController.svg?style=flat)](http://cocoapods.org/pods/EVTPhoneAreaCodeViewController)
-[![Platform](https://img.shields.io/cocoapods/p/EVTPhoneAreaCodeViewController.svg?style=flat)](http://cocoapods.org/pods/EVTPhoneAreaCodeViewController)
+Easy add Phone Area Code Select Feature to your apps.
+
+## Usage
+
+```oc
+EVTPhoneAreaCodeViewController *vc = [[EVTPhoneAreaCodeViewController alloc]init];
+vc.completion = ^(NSString *name, NSString *code){
+    UIButton *b = sender;
+    [b setTitle:[NSString stringWithFormat:@"+%@ %@",code,name] forState:UIControlStateNormal];
+};
+[self.navigationController pushViewController:vc animated:YES];
+
+```
+
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+`>= iOS 7.0`
 
 ## Installation
 

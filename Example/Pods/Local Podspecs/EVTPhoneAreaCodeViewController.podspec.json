@@ -1,9 +1,13 @@
 {
   "name": "EVTPhoneAreaCodeViewController",
   "version": "0.1.0",
-  "summary": "A short description of EVTPhoneAreaCodeViewController.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/EVTPhoneAreaCodeViewController",
+  "summary": "Phone Area Code Select View Controller for iOS",
+  "description": "Easy add Phone Area Code Select Feature to your iOS App.",
+  "homepage": "https://github.com/everettjf/EVTPhoneAreaCodeViewController",
+  "screenshots": [
+    "https://everettjf.github.io/stuff/areacode/areacode1.png",
+    "https://everettjf.github.io/stuff/areacode/areacode2.png"
+  ],
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +16,12 @@
     "everettjf": "everettjf@live.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/EVTPhoneAreaCodeViewController.git",
+    "git": "https://github.com/everettjf/EVTPhoneAreaCodeViewController.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/everettjf",
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "source_files": "EVTPhoneAreaCodeViewController/Classes/**/*",
   "resource_bundles": {
@@ -24,6 +29,7 @@
       "EVTPhoneAreaCodeViewController/Assets/*.txt"
     ]
   },
+  "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "Masonry": [
       "~> 1.0"
