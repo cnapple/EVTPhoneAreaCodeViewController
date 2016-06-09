@@ -36,7 +36,7 @@ Easy add Phone Area Code Select Feature to your iOS App.
     'EVTPhoneAreaCodeViewController' => ['EVTPhoneAreaCodeViewController/Assets/*.txt']
   }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Masonry', '~> 1.0'
 end
