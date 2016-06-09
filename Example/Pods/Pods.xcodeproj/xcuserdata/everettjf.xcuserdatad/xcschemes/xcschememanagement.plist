@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>EVTPhoneAreaCodeViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-EVTPhoneAreaCodeViewController_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-EVTPhoneAreaCodeViewController_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>354835E3E0AB4D64C91F6AA865CDD994</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82E4006D290586F90AD6DA561B3E7D87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9ED2CE24532E6A8A762BB2E10221F57A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F30B51B02DA039568943C0CEB96DF7BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

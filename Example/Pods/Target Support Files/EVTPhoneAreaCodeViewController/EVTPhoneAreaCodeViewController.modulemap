@@ -1,0 +1,6 @@
+framework module EVTPhoneAreaCodeViewController {
+  umbrella header "EVTPhoneAreaCodeViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
