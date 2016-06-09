@@ -19,7 +19,7 @@ vc.completion = ^(NSString *name, NSString *code){
 
 ## Customize
 
-You can alse customize lot of properties.
+You could customize lot of properties by giving the theme class.
 
 ```
 @interface EVTPhoneAreaCodeViewControllerTheme : NSObject
