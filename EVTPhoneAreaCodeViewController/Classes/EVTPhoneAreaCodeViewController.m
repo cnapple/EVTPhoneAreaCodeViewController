@@ -145,15 +145,31 @@
     }];
 }
 
+- (NSString *)_readFromFrameworkBundle:(NSString*)resource{
+    NSBundle *bundle = [NSBundle bundleForClass:[EVTPhoneAreaCode class]];
+    NSURL *bundlePath = [bundle URLForResource:NSStringFromClass([EVTPhoneAreaCodeViewController class]) withExtension:@"bundle"];
+    NSURL *codePath = [bundlePath URLByAppendingPathComponent:resource];
+    NSError *error;
+    NSString *codeSource = [NSString stringWithContentsOfURL:codePath encoding:NSUTF8StringEncoding error:&error];
+    if(error)return nil;
+    return codeSource;
+}
+- (NSString *)_readFromMainBundle:(NSString*)resource{
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSURL *codePath = [[bundle resourceURL] URLByAppendingPathComponent:resource];
+    NSError *error;
+    NSString *codeSource = [NSString stringWithContentsOfURL:codePath encoding:NSUTF8StringEncoding error:&error];
+    if(error)return nil;
+    return codeSource;
+}
+
 - (void)_loadData{
     NSString *resName = @"evt_phone_area_code_zh.txt";
     if(_localeEn) resName = @"evt_phone_area_code_en.txt";
     
-    NSBundle *bundle = [NSBundle bundleForClass:[EVTPhoneAreaCode class]];
-    NSURL *bundlePath = [bundle URLForResource:NSStringFromClass([EVTPhoneAreaCodeViewController class]) withExtension:@"bundle"];
-    NSURL *codePath = [bundlePath URLByAppendingPathComponent:resName];
-    NSString *codeSource = [NSString stringWithContentsOfURL:codePath encoding:NSUTF8StringEncoding error:nil];
-    if(!codeSource)return;
+    NSString *codeSource = [self _readFromFrameworkBundle:resName];
+    if(!codeSource) codeSource = [self _readFromMainBundle:resName];
+    if(!codeSource) return;
     
     NSArray<NSString*> *lines = [codeSource componentsSeparatedByCharactersInSet:[NSCharacterSet newlineCharacterSet]];
     
