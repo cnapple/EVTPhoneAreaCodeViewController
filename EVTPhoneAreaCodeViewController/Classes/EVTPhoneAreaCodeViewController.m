@@ -7,7 +7,7 @@
 //
 
 #import "EVTPhoneAreaCodeViewController.h"
-#import <Masonry.h>
+#import "Masonry.h"
 
 #define UIColorFromRGBA(rgbValue, alphaValue) \
     [UIColor \
@@ -36,8 +36,11 @@
         _sectionIndexColor = UIColorFromRGBA(0x6a6677, 1.0);
         
         _title = @"选择分区号";
+        _titleEn = @"Choose Area Code";
         
         _searchBarPlaceHolder = @"搜索";
+        _searchBarPlaceHolderEn = @"Search";
+        
         _searchBarTintColor = [UIColor whiteColor];
         _searchBarBackgroundColor = UIColorFromRGBA(0xf0f7f6, 1.0);
     }
@@ -80,7 +83,7 @@
     // Do any additional setup after loading the view.
     if(!_theme)_theme = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
     
-    self.navigationItem.title = _theme.title;
+    self.navigationItem.title = _localeEn?_theme.titleEn:_theme.title;
     
     _codes = [NSMutableArray new];
     _sectionTitles = [NSMutableArray new];
@@ -95,7 +98,7 @@
     self.view.backgroundColor = _theme.backgroundColor;
     
     UISearchBar *searchBar = [[UISearchBar alloc]init];
-    searchBar.placeholder = _theme.searchBarPlaceHolder;
+    searchBar.placeholder = _localeEn?_theme.searchBarPlaceHolderEn:_theme.searchBarPlaceHolder;
     searchBar.delegate = self;
     searchBar.translucent = YES;
     searchBar.barTintColor = _theme.searchBarTintColor;
@@ -146,8 +149,10 @@
     NSString *resName = @"evt_phone_area_code_zh.txt";
     if(_localeEn) resName = @"evt_phone_area_code_en.txt";
     
-    NSString *codePath = [[[NSBundle mainBundle]resourcePath]stringByAppendingPathComponent:resName];
-    NSString *codeSource = [NSString stringWithContentsOfFile:codePath encoding:NSUTF8StringEncoding error:nil];
+    NSBundle *bundle = [NSBundle bundleForClass:[EVTPhoneAreaCode class]];
+    NSURL *bundlePath = [bundle URLForResource:NSStringFromClass([EVTPhoneAreaCodeViewController class]) withExtension:@"bundle"];
+    NSURL *codePath = [bundlePath URLByAppendingPathComponent:resName];
+    NSString *codeSource = [NSString stringWithContentsOfURL:codePath encoding:NSUTF8StringEncoding error:nil];
     if(!codeSource)return;
     
     NSArray<NSString*> *lines = [codeSource componentsSeparatedByCharactersInSet:[NSCharacterSet newlineCharacterSet]];

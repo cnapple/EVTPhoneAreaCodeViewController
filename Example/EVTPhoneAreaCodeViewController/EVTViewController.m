@@ -7,6 +7,7 @@
 //
 
 #import "EVTViewController.h"
+#import "EVTPhoneAreaCodeViewController.h"
 
 @interface EVTViewController ()
 
@@ -26,8 +27,21 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)buttonTapped:(id)sender {
+    EVTPhoneAreaCodeViewController *vc = [[EVTPhoneAreaCodeViewController alloc]init];
+    vc.completion = ^(NSString *name, NSString *code){
+        UIButton *b = sender;
+        [b setTitle:[NSString stringWithFormat:@"+%@ %@",code,name] forState:UIControlStateNormal];
+    };
+    [self.navigationController pushViewController:vc animated:YES];
 }
 - (IBAction)enTapped:(id)sender {
+    EVTPhoneAreaCodeViewController *vc = [[EVTPhoneAreaCodeViewController alloc]init];
+    vc.localeEn = YES;
+    vc.completion = ^(NSString *name, NSString *code){
+        UIButton *b = sender;
+        [b setTitle:[NSString stringWithFormat:@"+%@ %@",code,name] forState:UIControlStateNormal];
+    };
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

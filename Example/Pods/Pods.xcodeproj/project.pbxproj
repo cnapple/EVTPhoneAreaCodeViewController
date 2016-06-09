@@ -7,90 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07EB047D38ECEFF43DF7F713B481FBDA /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DE4AA88C96F734AC1CBC139649E8359 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
-		1BF35C2F9D106698895B21E7B3ADCC39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D3EDE8803C2444E24055A5375E9B9B /* UIKit.framework */; };
-		21530B5C422EFA2EABE05348F10D0FB3 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
-		275947377B84D99665C5789815ADDF8F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29FEEC47DDC994C37854D0BF0BA105AD /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2ACF26B14CF4E8484300FED4E7535661 /* EVTPhoneAreaCodeViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC6DD574303DDDF68E9520BBCAF4BB4 /* EVTPhoneAreaCodeViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3204F0A58D4C1C847B80783DB66D9CD1 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3609DFBA0EABB61B906B14B919260373 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B17F2BF00862EEBB3AD7D7613B1B348 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C127EE7E0178A551D0142284DE58789 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AE473FAADC8F58F53B3E6600DF16B90 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30FCAC171C8302680A73BCB1D4BB71CD /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3890D47EC7E77847EF2F9A973E97DB20 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
 		3B6599298A26BCF533FFCC9455170EA3 /* Pods-EVTPhoneAreaCodeViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4791C6FA78E32BD60419D661DD43CDB3 /* Pods-EVTPhoneAreaCodeViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		406FF5B7168F9B013B110BBA59F0B04D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F997E5514732DD3A0C8BEDDD6E70E69 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C04CEE2A4914C084BAE5A92E5BACC37 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		3D128CBF8A82ACB48794C5C43B751BAB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		41016D66190C29A90CE65C8380B0D2EC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		4DBDE786F890B42943DB2CCA3AE9B460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
+		4E18EE202F32B21DC90F9C0555824A26 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7EBEC3FD4C61D655339C68C6B5FD75 /* evt_phone_area_code_zh.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29D2252073AFF9A75C679209A459BEAE /* evt_phone_area_code_zh.txt */; };
+		50FE4B4753CC62B266DE71546824F4AC /* EVTPhoneAreaCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3A9B42D3E70A7D3DD49E4DB831EA6A /* EVTPhoneAreaCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		525BC3ABB2703B49DB74533640D77E80 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5276E31415C6639E8FBCBAB78AB7EA28 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
 		527B549E86609776862E0139EDEB1F12 /* Pods-EVTPhoneAreaCodeViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD182A6EAE6A43ECC6B7C2B62C60F80C /* Pods-EVTPhoneAreaCodeViewController_Example-dummy.m */; };
 		6416D0DE58C7475148005101D8B8276F /* Pods-EVTPhoneAreaCodeViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3F2F4AAA1C8C42567AED92A56E732E /* Pods-EVTPhoneAreaCodeViewController_Tests-dummy.m */; };
-		6FA13B5E8A454068ACD2A187C34B1264 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75BDBB72F2B25A8E99EC004EA7795583 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D593B5CB7795DF891524E87A97D59A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
-		7E6DE24D691A34B879DB3D069F186F6B /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
-		88C286A5373B74A4868814646F748451 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C497A0DA04BE7EDEC525DCB199D2027 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
-		8D3305AE2BECBAF0E5ABF5A8DD5CEA0F /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EF7B878916056FC7BCD0AB345C1044E /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
+		656290D65076077F9F56A4F0D09DD632 /* EVTPhoneAreaCodeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE2CC7A49AFD8EAC51ADBF7B177E9C /* EVTPhoneAreaCodeViewController-dummy.m */; };
+		67AFF2792B2102705D6B5D677A384C8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D3EDE8803C2444E24055A5375E9B9B /* UIKit.framework */; };
+		6B8B85994103AD162EEB6CC5950532E2 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
+		77873E378F05018A1E9934A8DAEF9DA1 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0D5A4454B03130C7652CF52883E580 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A62DBCC37D15E173CCD1FDEA22536CA /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
+		87C80CCB9AB2641E14AD3B667ADF6B61 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91EB0ABB4CFB92AC1F5A25FB3E018323 /* Pods-EVTPhoneAreaCodeViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC22B1E2D369242C882594CD89E50E7E /* Pods-EVTPhoneAreaCodeViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925E5B91AB85F56D30DD8F2C0196324D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
-		96B6017B4DAB88E24D537B1FF2C0AD39 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		A22B346B83B66939D6FCF25D8E466DB7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+		95DAE66B07AB400EB659295194868D95 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99ED6C4A0D9BDF643AD38AFBD6E0C699 /* EVTPhoneAreaCodeViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B73856C76A622DA552AE2DEFFF9BE2 /* EVTPhoneAreaCodeViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DADA5A66595F63AF30A94CC650C51CD /* evt_phone_area_code_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C89807E4E23137FA4C2F1F764FBAA44 /* evt_phone_area_code_en.txt */; };
+		9FCAE1C5F37F08782E9C19B6DDFCBC68 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A335560275C85F93C2449DFBE43E6225 /* EVTPhoneAreaCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8987EBDFB9A5BA77AB1F5445B999BE05 /* EVTPhoneAreaCodeViewController.m */; };
+		A80AFFB03F17D6A4E065524AEEBADFA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
+		AEF2093BE6272DA9D5B4A3EDD0AFDC71 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1A98877BD35A411A82AF7EDFB0EE2C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
-		B43CDB506511E945050A768C6567F02E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
-		B57418DBB6E36A0F44376CE74BC3DC59 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E570519C5ACF3F07EE34AC4D57A47B4 /* ReplaceMe.m */; };
-		BF9E16BC98191E00B6FD5C5D0A0ACA93 /* EVTPhoneAreaCodeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C949167EA61D54AB8EE336D761EBF9 /* EVTPhoneAreaCodeViewController-dummy.m */; };
-		C72F5B3A533EA8BDB1F5D226EDF0CD79 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
-		E177CA2350F334CD3F682A76D67EC372 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		B2C9F7C83E552EF93913308FC3877E26 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2EED1C619F93868857F5CBE3FFE91CF /* EVTPhoneAreaCodeViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA58CFE3DFFDEF5DC12A665845DE6775 /* EVTPhoneAreaCodeViewController.bundle */; };
+		CC4742FA16EC97041C91D4AA51B3BE31 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D268D60D8EDCB2CB09C97388D74FA5F5 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
+		D4BF502E9257C36E1ADE0E243A0C5901 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E279F845240EF2840225FBD7DC66DC5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
-		EA3E9B5470BA08F8E229951447DD6FA6 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA8664BCA0430FCFC5B840C0ACDECEFB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
-		EC92A8AED387F894BAAE00529A96C571 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1674A2C1967D2428D63979ECB984E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
-		F7C49D820D1B140C1F5DBC5B98093219 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F86BBC00F5FB69EA044D9A859C0D6AA0 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF0AEECEFBE1305A389E4DBDB392094D /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E61EB1BAA0F13A08B4E86C695B1EE260 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
+		EDFBCB954E8ECFB8D174E7D828C7690E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+		F5BC1EE8B75EA33C0D0356088388111F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
+		F894D9A0EAA29637D687545C5174ED87 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		FEF9C182808D0B5B78F9CB88FE1BD391 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		199B414F5E137D1E9A94FC45B4961DEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82E4006D290586F90AD6DA561B3E7D87;
-			remoteInfo = Masonry;
-		};
 		1DC65D265AD2982071396B54F96FD11E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F30B51B02DA039568943C0CEB96DF7BA;
+			remoteGlobalIDString = EEE89336267BDE575212842948422F3C;
 			remoteInfo = EVTPhoneAreaCodeViewController;
+		};
+		573BC0C3C9C0F0E03DF1FE0AF7CD4062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A66D9C39F49408BFFB185165DDCE06E2;
+			remoteInfo = Masonry;
 		};
 		6B9B4C2041954CF2D3E77361FF4A3311 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 82E4006D290586F90AD6DA561B3E7D87;
+			remoteGlobalIDString = A66D9C39F49408BFFB185165DDCE06E2;
 			remoteInfo = Masonry;
+		};
+		D79D979B2BD11539742FD666AD8A1DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12EB0CF10CA12604B8A6AA7CB8B04E9E;
+			remoteInfo = "EVTPhoneAreaCodeViewController-EVTPhoneAreaCodeViewController";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003116E8854CC8FE51F882664B50E9A2 /* EVTPhoneAreaCodeViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVTPhoneAreaCodeViewController-prefix.pch"; sourceTree = "<group>"; };
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		101C77CA4CB5459F81D21A750DB3BA77 /* Pods-EVTPhoneAreaCodeViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EVTPhoneAreaCodeViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		19624DDF260CE11DEC82CEA31173B9C7 /* EVTPhoneAreaCodeViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EVTPhoneAreaCodeViewController.modulemap; sourceTree = "<group>"; };
 		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		233A084D0BFFF54BD80D818348E785BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		233B35030617E4D6457D281A2D81C21B /* Pods-EVTPhoneAreaCodeViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EVTPhoneAreaCodeViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		24D3EDE8803C2444E24055A5375E9B9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		25DBAB5FCED583C239D460C94C2318ED /* EVTPhoneAreaCodeViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EVTPhoneAreaCodeViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D2252073AFF9A75C679209A459BEAE /* evt_phone_area_code_zh.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = evt_phone_area_code_zh.txt; sourceTree = "<group>"; };
 		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
 		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		4286A2ADB7B9BF22AAD6E40ADEECCB0C /* EVTPhoneAreaCodeViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EVTPhoneAreaCodeViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C89807E4E23137FA4C2F1F764FBAA44 /* evt_phone_area_code_en.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = evt_phone_area_code_en.txt; sourceTree = "<group>"; };
 		4791C6FA78E32BD60419D661DD43CDB3 /* Pods-EVTPhoneAreaCodeViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EVTPhoneAreaCodeViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4CF38498F5F9E9F5A2AF09BA47AC134C /* Pods-EVTPhoneAreaCodeViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EVTPhoneAreaCodeViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4E570519C5ACF3F07EE34AC4D57A47B4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		4E584E51B927D7021FAF16A3B4E6AF87 /* Pods-EVTPhoneAreaCodeViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EVTPhoneAreaCodeViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		530A3421F28AE1F9DBC8D259925A9538 /* EVTPhoneAreaCodeViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVTPhoneAreaCodeViewController.xcconfig; sourceTree = "<group>"; };
+		51A5BEFCD7A3605B559DE7150A6DA918 /* Pods_EVTPhoneAreaCodeViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVTPhoneAreaCodeViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		5955B571A43FEDE13176CC53CAEB7FED /* Pods-EVTPhoneAreaCodeViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EVTPhoneAreaCodeViewController_Example.modulemap"; sourceTree = "<group>"; };
 		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
@@ -106,10 +120,12 @@
 		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		7F44A621BE24B87AEF75DD7193846188 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8343DC02E9BDA343D94697EDDC02E51D /* Pods-EVTPhoneAreaCodeViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EVTPhoneAreaCodeViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		8987EBDFB9A5BA77AB1F5445B999BE05 /* EVTPhoneAreaCodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EVTPhoneAreaCodeViewController.m; sourceTree = "<group>"; };
+		8B24A383BEAD353D029EBC537398F740 /* EVTPhoneAreaCodeViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVTPhoneAreaCodeViewController.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		960496CD7744CEE4C495391EC8AC2E12 /* Pods_EVTPhoneAreaCodeViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVTPhoneAreaCodeViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		9DAA1BE085AFD2178DB8728B3F650458 /* ResourceBundle-EVTPhoneAreaCodeViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EVTPhoneAreaCodeViewController-Info.plist"; sourceTree = "<group>"; };
 		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		A6C8098A93A946152A37677FD4283735 /* Pods-EVTPhoneAreaCodeViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EVTPhoneAreaCodeViewController_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -118,22 +134,22 @@
 		ADC3DF63BE10ACC7BC37FF570AC2173C /* Pods-EVTPhoneAreaCodeViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVTPhoneAreaCodeViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE3F2F4AAA1C8C42567AED92A56E732E /* Pods-EVTPhoneAreaCodeViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EVTPhoneAreaCodeViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		B7B65DCF98AA55BE65D09315A9405051 /* EVTPhoneAreaCodeViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVTPhoneAreaCodeViewController-prefix.pch"; sourceTree = "<group>"; };
+		B269F58B1CE91AC24801BFB27F92F6FC /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B73856C76A622DA552AE2DEFFF9BE2 /* EVTPhoneAreaCodeViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVTPhoneAreaCodeViewController-umbrella.h"; sourceTree = "<group>"; };
+		BFCE2CC7A49AFD8EAC51ADBF7B177E9C /* EVTPhoneAreaCodeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVTPhoneAreaCodeViewController-dummy.m"; sourceTree = "<group>"; };
 		C10DFDC76EE4388DAE5B990E9094C464 /* Pods-EVTPhoneAreaCodeViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EVTPhoneAreaCodeViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C298A7844ED8A2CFC3EE1EBFFF3BBB77 /* Pods-EVTPhoneAreaCodeViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVTPhoneAreaCodeViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C2E451BF69774AC8927F4EBC16C1C330 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3C133C922C36711841BA203F9186AF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		C6D2D5B5F5FFA3C92E0BA795ADA2DA82 /* Pods-EVTPhoneAreaCodeViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVTPhoneAreaCodeViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		D118D11156F44429B9E6053187996B88 /* Pods-EVTPhoneAreaCodeViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EVTPhoneAreaCodeViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DB5C63EB810D522665AFA6017560500E /* Pods_EVTPhoneAreaCodeViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVTPhoneAreaCodeViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5C949167EA61D54AB8EE336D761EBF9 /* EVTPhoneAreaCodeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVTPhoneAreaCodeViewController-dummy.m"; sourceTree = "<group>"; };
+		D51217978A5FCD1DF63DDB4379C493D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5A8AB6FB8EB5486C292F083CE2A266 /* Pods_EVTPhoneAreaCodeViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVTPhoneAreaCodeViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EADF047BE7E3D22C0A163690CA43F0 /* Pods-EVTPhoneAreaCodeViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EVTPhoneAreaCodeViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E6A791AD8ADC0DBEEF84C56494F2BAA9 /* EVTPhoneAreaCodeViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EVTPhoneAreaCodeViewController.modulemap; sourceTree = "<group>"; };
-		EAC6DD574303DDDF68E9520BBCAF4BB4 /* EVTPhoneAreaCodeViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVTPhoneAreaCodeViewController-umbrella.h"; sourceTree = "<group>"; };
+		EA58CFE3DFFDEF5DC12A665845DE6775 /* EVTPhoneAreaCodeViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVTPhoneAreaCodeViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC22B1E2D369242C882594CD89E50E7E /* Pods-EVTPhoneAreaCodeViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EVTPhoneAreaCodeViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		EC3A9B42D3E70A7D3DD49E4DB831EA6A /* EVTPhoneAreaCodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EVTPhoneAreaCodeViewController.h; sourceTree = "<group>"; };
 		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		FD182A6EAE6A43ECC6B7C2B62C60F80C /* Pods-EVTPhoneAreaCodeViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EVTPhoneAreaCodeViewController_Example-dummy.m"; sourceTree = "<group>"; };
@@ -151,12 +167,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92FFF91F2CF2571E16DE732AF8F133D8 /* Frameworks */ = {
+		47DBEDF7B54E57A7B7E5E92EB33A8A50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1674A2C1967D2428D63979ECB984E9D /* Foundation.framework in Frameworks */,
-				8EF7B878916056FC7BCD0AB345C1044E /* Masonry.framework in Frameworks */,
+				A80AFFB03F17D6A4E065524AEEBADFA4 /* Foundation.framework in Frameworks */,
+				6B8B85994103AD162EEB6CC5950532E2 /* Masonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B73BB20D9A77E3B59416EAF75B3E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6AC0BDC71EB9DC5A158980EA9C9E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBDE786F890B42943DB2CCA3AE9B460 /* Foundation.framework in Frameworks */,
+				67AFF2792B2102705D6B5D677A384C8D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,18 +200,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9325790EF262B1831302259D304EB72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D593B5CB7795DF891524E87A97D59A9 /* Foundation.framework in Frameworks */,
-				1BF35C2F9D106698895B21E7B3ADCC39 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02C795384BB0FF14A6C247889146C86B /* EVTPhoneAreaCodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				451182E7AD00777BCD7859CE191C26C2 /* Assets */,
+			);
+			path = EVTPhoneAreaCodeViewController;
+			sourceTree = "<group>";
+		};
+		0D1291DE4CF1922234C84A5493DBA5EF /* EVTPhoneAreaCodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2A592CFFA326D4F81A3A22F681CD3CE3 /* Classes */,
+			);
+			path = EVTPhoneAreaCodeViewController;
+			sourceTree = "<group>";
+		};
 		1602A92276A00589DFA62DA93117EB2E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,23 +228,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2078D7CA6780DEE21A8540D89B228BD8 /* Classes */ = {
+		1CD9222997AE898A8AC355ED43B0EEF7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4E570519C5ACF3F07EE34AC4D57A47B4 /* ReplaceMe.m */,
+				FBF9AB5A182FB64525F96680170E66A9 /* EVTPhoneAreaCodeViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2A592CFFA326D4F81A3A22F681CD3CE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A9B42D3E70A7D3DD49E4DB831EA6A /* EVTPhoneAreaCodeViewController.h */,
+				8987EBDFB9A5BA77AB1F5445B999BE05 /* EVTPhoneAreaCodeViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		52C6586975BF053BF997DB0E12B45065 /* Products */ = {
+		451182E7AD00777BCD7859CE191C26C2 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				4286A2ADB7B9BF22AAD6E40ADEECCB0C /* EVTPhoneAreaCodeViewController.framework */,
-				C2E451BF69774AC8927F4EBC16C1C330 /* Masonry.framework */,
-				DB5C63EB810D522665AFA6017560500E /* Pods_EVTPhoneAreaCodeViewController_Example.framework */,
-				960496CD7744CEE4C495391EC8AC2E12 /* Pods_EVTPhoneAreaCodeViewController_Tests.framework */,
+				3C89807E4E23137FA4C2F1F764FBAA44 /* evt_phone_area_code_en.txt */,
+				29D2252073AFF9A75C679209A459BEAE /* evt_phone_area_code_zh.txt */,
 			);
-			name = Products;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		59511511C2B4BC905C933DCC67E365C4 /* Frameworks */ = {
@@ -217,22 +263,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5B4AE446A1B05A5786412B03B52805CA /* Development Pods */ = {
+		783A42C99885924A4D5277228731A093 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AF0DF95E5ABB7D90710F8A0F1D52D1B7 /* EVTPhoneAreaCodeViewController */,
+				19624DDF260CE11DEC82CEA31173B9C7 /* EVTPhoneAreaCodeViewController.modulemap */,
+				8B24A383BEAD353D029EBC537398F740 /* EVTPhoneAreaCodeViewController.xcconfig */,
+				BFCE2CC7A49AFD8EAC51ADBF7B177E9C /* EVTPhoneAreaCodeViewController-dummy.m */,
+				003116E8854CC8FE51F882664B50E9A2 /* EVTPhoneAreaCodeViewController-prefix.pch */,
+				B4B73856C76A622DA552AE2DEFFF9BE2 /* EVTPhoneAreaCodeViewController-umbrella.h */,
+				D51217978A5FCD1DF63DDB4379C493D2 /* Info.plist */,
+				9DAA1BE085AFD2178DB8728B3F650458 /* ResourceBundle-EVTPhoneAreaCodeViewController-Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EVTPhoneAreaCodeViewController";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5B4AE446A1B05A5786412B03B52805CA /* Development Pods */,
+				1CD9222997AE898A8AC355ED43B0EEF7 /* Development Pods */,
 				59511511C2B4BC905C933DCC67E365C4 /* Frameworks */,
 				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
-				52C6586975BF053BF997DB0E12B45065 /* Products */,
+				DA7D5CCACDFA650CA8EF97F0EF085A7E /* Products */,
 				1602A92276A00589DFA62DA93117EB2E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -302,36 +355,24 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		AF0DF95E5ABB7D90710F8A0F1D52D1B7 /* EVTPhoneAreaCodeViewController */ = {
+		BAFC6FFC219985B51BCADD423E382A92 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B0DF5313CA995C85FA58FB1505E5351F /* EVTPhoneAreaCodeViewController */,
-				CB967CD6D05705E177BCA0C187D0766C /* Support Files */,
+				02C795384BB0FF14A6C247889146C86B /* EVTPhoneAreaCodeViewController */,
 			);
-			name = EVTPhoneAreaCodeViewController;
-			path = ../..;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		B0DF5313CA995C85FA58FB1505E5351F /* EVTPhoneAreaCodeViewController */ = {
+		DA7D5CCACDFA650CA8EF97F0EF085A7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2078D7CA6780DEE21A8540D89B228BD8 /* Classes */,
+				EA58CFE3DFFDEF5DC12A665845DE6775 /* EVTPhoneAreaCodeViewController.bundle */,
+				25DBAB5FCED583C239D460C94C2318ED /* EVTPhoneAreaCodeViewController.framework */,
+				B269F58B1CE91AC24801BFB27F92F6FC /* Masonry.framework */,
+				51A5BEFCD7A3605B559DE7150A6DA918 /* Pods_EVTPhoneAreaCodeViewController_Example.framework */,
+				DB5A8AB6FB8EB5486C292F083CE2A266 /* Pods_EVTPhoneAreaCodeViewController_Tests.framework */,
 			);
-			path = EVTPhoneAreaCodeViewController;
-			sourceTree = "<group>";
-		};
-		CB967CD6D05705E177BCA0C187D0766C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E6A791AD8ADC0DBEEF84C56494F2BAA9 /* EVTPhoneAreaCodeViewController.modulemap */,
-				530A3421F28AE1F9DBC8D259925A9538 /* EVTPhoneAreaCodeViewController.xcconfig */,
-				E5C949167EA61D54AB8EE336D761EBF9 /* EVTPhoneAreaCodeViewController-dummy.m */,
-				B7B65DCF98AA55BE65D09315A9405051 /* EVTPhoneAreaCodeViewController-prefix.pch */,
-				EAC6DD574303DDDF68E9520BBCAF4BB4 /* EVTPhoneAreaCodeViewController-umbrella.h */,
-				C3C133C922C36711841BA203F9186AF2 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EVTPhoneAreaCodeViewController";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		DD823825D4B08E2AE7068B31500D9229 /* iOS */ = {
@@ -369,6 +410,17 @@
 			path = "Target Support Files/Pods-EVTPhoneAreaCodeViewController_Tests";
 			sourceTree = "<group>";
 		};
+		FBF9AB5A182FB64525F96680170E66A9 /* EVTPhoneAreaCodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0D1291DE4CF1922234C84A5493DBA5EF /* EVTPhoneAreaCodeViewController */,
+				BAFC6FFC219985B51BCADD423E382A92 /* Resources */,
+				783A42C99885924A4D5277228731A093 /* Support Files */,
+			);
+			name = EVTPhoneAreaCodeViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -380,6 +432,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86405BB54BE8CD9CE250DF8784D2A057 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0D5A4454B03130C7652CF52883E580 /* MASCompositeConstraint.h in Headers */,
+				FEF9C182808D0B5B78F9CB88FE1BD391 /* MASConstraint+Private.h in Headers */,
+				B2C9F7C83E552EF93913308FC3877E26 /* MASConstraint.h in Headers */,
+				87C80CCB9AB2641E14AD3B667ADF6B61 /* MASConstraintMaker.h in Headers */,
+				95DAE66B07AB400EB659295194868D95 /* MASLayoutConstraint.h in Headers */,
+				CC4742FA16EC97041C91D4AA51B3BE31 /* Masonry-umbrella.h in Headers */,
+				D4BF502E9257C36E1ADE0E243A0C5901 /* Masonry.h in Headers */,
+				4E18EE202F32B21DC90F9C0555824A26 /* MASUtilities.h in Headers */,
+				AEF2093BE6272DA9D5B4A3EDD0AFDC71 /* MASViewAttribute.h in Headers */,
+				77873E378F05018A1E9934A8DAEF9DA1 /* MASViewConstraint.h in Headers */,
+				0B17F2BF00862EEBB3AD7D7613B1B348 /* NSArray+MASAdditions.h in Headers */,
+				525BC3ABB2703B49DB74533640D77E80 /* NSArray+MASShorthandAdditions.h in Headers */,
+				1C127EE7E0178A551D0142284DE58789 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				30FCAC171C8302680A73BCB1D4BB71CD /* View+MASAdditions.h in Headers */,
+				9FCAE1C5F37F08782E9C19B6DDFCBC68 /* View+MASShorthandAdditions.h in Headers */,
+				2AE473FAADC8F58F53B3E6600DF16B90 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		936AE6003AE2E506D6F6A714839EED04 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,40 +463,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A77BE0C3F816FB057C453D76402EBFDC /* Headers */ = {
+		DE9D671D4632570EA84CDEF2A297B139 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3609DFBA0EABB61B906B14B919260373 /* MASCompositeConstraint.h in Headers */,
-				88C286A5373B74A4868814646F748451 /* MASConstraint+Private.h in Headers */,
-				EC92A8AED387F894BAAE00529A96C571 /* MASConstraint.h in Headers */,
-				8D3305AE2BECBAF0E5ABF5A8DD5CEA0F /* MASConstraintMaker.h in Headers */,
-				3204F0A58D4C1C847B80783DB66D9CD1 /* MASLayoutConstraint.h in Headers */,
-				F86BBC00F5FB69EA044D9A859C0D6AA0 /* Masonry-umbrella.h in Headers */,
-				4F997E5514732DD3A0C8BEDDD6E70E69 /* Masonry.h in Headers */,
-				07EB047D38ECEFF43DF7F713B481FBDA /* MASUtilities.h in Headers */,
-				F7C49D820D1B140C1F5DBC5B98093219 /* MASViewAttribute.h in Headers */,
-				75BDBB72F2B25A8E99EC004EA7795583 /* MASViewConstraint.h in Headers */,
-				29FEEC47DDC994C37854D0BF0BA105AD /* NSArray+MASAdditions.h in Headers */,
-				FF0AEECEFBE1305A389E4DBDB392094D /* NSArray+MASShorthandAdditions.h in Headers */,
-				406FF5B7168F9B013B110BBA59F0B04D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				EA3E9B5470BA08F8E229951447DD6FA6 /* View+MASAdditions.h in Headers */,
-				275947377B84D99665C5789815ADDF8F /* View+MASShorthandAdditions.h in Headers */,
-				6FA13B5E8A454068ACD2A187C34B1264 /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B38A3EF5D29E3FFCB0B732E74A8BE05A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2ACF26B14CF4E8484300FED4E7535661 /* EVTPhoneAreaCodeViewController-umbrella.h in Headers */,
+				99ED6C4A0D9BDF643AD38AFBD6E0C699 /* EVTPhoneAreaCodeViewController-umbrella.h in Headers */,
+				50FE4B4753CC62B266DE71546824F4AC /* EVTPhoneAreaCodeViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		12EB0CF10CA12604B8A6AA7CB8B04E9E /* EVTPhoneAreaCodeViewController-EVTPhoneAreaCodeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAC94D8EA7817C73EABA49F0387AAE9 /* Build configuration list for PBXNativeTarget "EVTPhoneAreaCodeViewController-EVTPhoneAreaCodeViewController" */;
+			buildPhases = (
+				63787EE22A9D0B257C777503D273F9E4 /* Sources */,
+				99B73BB20D9A77E3B59416EAF75B3E8D /* Frameworks */,
+				FFAE397E0AA833FAB7552532608FA6D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EVTPhoneAreaCodeViewController-EVTPhoneAreaCodeViewController";
+			productName = "EVTPhoneAreaCodeViewController-EVTPhoneAreaCodeViewController";
+			productReference = EA58CFE3DFFDEF5DC12A665845DE6775 /* EVTPhoneAreaCodeViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		354835E3E0AB4D64C91F6AA865CDD994 /* Pods-EVTPhoneAreaCodeViewController_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3A531E23C8C2972E0384D9CB2C7FE55 /* Build configuration list for PBXNativeTarget "Pods-EVTPhoneAreaCodeViewController_Tests" */;
@@ -436,24 +506,7 @@
 			);
 			name = "Pods-EVTPhoneAreaCodeViewController_Tests";
 			productName = "Pods-EVTPhoneAreaCodeViewController_Tests";
-			productReference = 960496CD7744CEE4C495391EC8AC2E12 /* Pods_EVTPhoneAreaCodeViewController_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		82E4006D290586F90AD6DA561B3E7D87 /* Masonry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E882E8FE99ADAF012BA7DC6AEED2FB60 /* Build configuration list for PBXNativeTarget "Masonry" */;
-			buildPhases = (
-				5F36B6476A062B01289D6D83E3008A9E /* Sources */,
-				D9325790EF262B1831302259D304EB72 /* Frameworks */,
-				A77BE0C3F816FB057C453D76402EBFDC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Masonry;
-			productName = Masonry;
-			productReference = C2E451BF69774AC8927F4EBC16C1C330 /* Masonry.framework */;
+			productReference = DB5A8AB6FB8EB5486C292F083CE2A266 /* Pods_EVTPhoneAreaCodeViewController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9ED2CE24532E6A8A762BB2E10221F57A /* Pods-EVTPhoneAreaCodeViewController_Example */ = {
@@ -472,25 +525,44 @@
 			);
 			name = "Pods-EVTPhoneAreaCodeViewController_Example";
 			productName = "Pods-EVTPhoneAreaCodeViewController_Example";
-			productReference = DB5C63EB810D522665AFA6017560500E /* Pods_EVTPhoneAreaCodeViewController_Example.framework */;
+			productReference = 51A5BEFCD7A3605B559DE7150A6DA918 /* Pods_EVTPhoneAreaCodeViewController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F30B51B02DA039568943C0CEB96DF7BA /* EVTPhoneAreaCodeViewController */ = {
+		A66D9C39F49408BFFB185165DDCE06E2 /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2509AD5BFF7958BBF5BCCCA1FD46A6A5 /* Build configuration list for PBXNativeTarget "EVTPhoneAreaCodeViewController" */;
+			buildConfigurationList = 3E7FE530A07D05B5102F7DD4BCEB2CEF /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				3F431C01959418036B593DCE25A08C32 /* Sources */,
-				92FFF91F2CF2571E16DE732AF8F133D8 /* Frameworks */,
-				B38A3EF5D29E3FFCB0B732E74A8BE05A /* Headers */,
+				34CDF0A28D7C1EB840B2F8A37DECBC81 /* Sources */,
+				BF6AC0BDC71EB9DC5A158980EA9C9E23 /* Frameworks */,
+				86405BB54BE8CD9CE250DF8784D2A057 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FF47FC92E7139188A767133F72858015 /* PBXTargetDependency */,
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = B269F58B1CE91AC24801BFB27F92F6FC /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEE89336267BDE575212842948422F3C /* EVTPhoneAreaCodeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAAAE86B3EDD61C827112E4F02835BF /* Build configuration list for PBXNativeTarget "EVTPhoneAreaCodeViewController" */;
+			buildPhases = (
+				A7FBB0CD678D3B6A037913EF3809A9CA /* Sources */,
+				47DBEDF7B54E57A7B7E5E92EB33A8A50 /* Frameworks */,
+				EE641D76162319230DCAE25C6EE2AF31 /* Resources */,
+				DE9D671D4632570EA84CDEF2A297B139 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				825A5058800E427AF00D5277F7D384AA /* PBXTargetDependency */,
+				DF9EBBC6213B6D6D9EB6F1C49B5140F4 /* PBXTargetDependency */,
 			);
 			name = EVTPhoneAreaCodeViewController;
 			productName = EVTPhoneAreaCodeViewController;
-			productReference = 4286A2ADB7B9BF22AAD6E40ADEECCB0C /* EVTPhoneAreaCodeViewController.framework */;
+			productReference = 25DBAB5FCED583C239D460C94C2318ED /* EVTPhoneAreaCodeViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -510,17 +582,38 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 52C6586975BF053BF997DB0E12B45065 /* Products */;
+			productRefGroup = DA7D5CCACDFA650CA8EF97F0EF085A7E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F30B51B02DA039568943C0CEB96DF7BA /* EVTPhoneAreaCodeViewController */,
-				82E4006D290586F90AD6DA561B3E7D87 /* Masonry */,
+				EEE89336267BDE575212842948422F3C /* EVTPhoneAreaCodeViewController */,
+				12EB0CF10CA12604B8A6AA7CB8B04E9E /* EVTPhoneAreaCodeViewController-EVTPhoneAreaCodeViewController */,
+				A66D9C39F49408BFFB185165DDCE06E2 /* Masonry */,
 				9ED2CE24532E6A8A762BB2E10221F57A /* Pods-EVTPhoneAreaCodeViewController_Example */,
 				354835E3E0AB4D64C91F6AA865CDD994 /* Pods-EVTPhoneAreaCodeViewController_Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE641D76162319230DCAE25C6EE2AF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EED1C619F93868857F5CBE3FFE91CF /* EVTPhoneAreaCodeViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAE397E0AA833FAB7552532608FA6D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DADA5A66595F63AF30A94CC650C51CD /* evt_phone_area_code_en.txt in Resources */,
+				4F7EBEC3FD4C61D655339C68C6B5FD75 /* evt_phone_area_code_zh.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1C7A9A1BF3095445C5FDC88617B89FBB /* Sources */ = {
@@ -539,30 +632,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F431C01959418036B593DCE25A08C32 /* Sources */ = {
+		34CDF0A28D7C1EB840B2F8A37DECBC81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9E16BC98191E00B6FD5C5D0A0ACA93 /* EVTPhoneAreaCodeViewController-dummy.m in Sources */,
-				B57418DBB6E36A0F44376CE74BC3DC59 /* ReplaceMe.m in Sources */,
+				3890D47EC7E77847EF2F9A973E97DB20 /* MASCompositeConstraint.m in Sources */,
+				F894D9A0EAA29637D687545C5174ED87 /* MASConstraint.m in Sources */,
+				7A62DBCC37D15E173CCD1FDEA22536CA /* MASConstraintMaker.m in Sources */,
+				3C04CEE2A4914C084BAE5A92E5BACC37 /* MASLayoutConstraint.m in Sources */,
+				D268D60D8EDCB2CB09C97388D74FA5F5 /* Masonry-dummy.m in Sources */,
+				5276E31415C6639E8FBCBAB78AB7EA28 /* MASViewAttribute.m in Sources */,
+				F5BC1EE8B75EA33C0D0356088388111F /* MASViewConstraint.m in Sources */,
+				3D128CBF8A82ACB48794C5C43B751BAB /* NSArray+MASAdditions.m in Sources */,
+				41016D66190C29A90CE65C8380B0D2EC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				EDFBCB954E8ECFB8D174E7D828C7690E /* View+MASAdditions.m in Sources */,
+				E61EB1BAA0F13A08B4E86C695B1EE260 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F36B6476A062B01289D6D83E3008A9E /* Sources */ = {
+		63787EE22A9D0B257C777503D273F9E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21530B5C422EFA2EABE05348F10D0FB3 /* MASCompositeConstraint.m in Sources */,
-				C72F5B3A533EA8BDB1F5D226EDF0CD79 /* MASConstraint.m in Sources */,
-				B43CDB506511E945050A768C6567F02E /* MASConstraintMaker.m in Sources */,
-				E177CA2350F334CD3F682A76D67EC372 /* MASLayoutConstraint.m in Sources */,
-				0DE4AA88C96F734AC1CBC139649E8359 /* Masonry-dummy.m in Sources */,
-				7E6DE24D691A34B879DB3D069F186F6B /* MASViewAttribute.m in Sources */,
-				EA8664BCA0430FCFC5B840C0ACDECEFB /* MASViewConstraint.m in Sources */,
-				925E5B91AB85F56D30DD8F2C0196324D /* NSArray+MASAdditions.m in Sources */,
-				96B6017B4DAB88E24D537B1FF2C0AD39 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				A22B346B83B66939D6FCF25D8E466DB7 /* View+MASAdditions.m in Sources */,
-				8C497A0DA04BE7EDEC525DCB199D2027 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FBB0CD678D3B6A037913EF3809A9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656290D65076077F9F56A4F0D09DD632 /* EVTPhoneAreaCodeViewController-dummy.m in Sources */,
+				A335560275C85F93C2449DFBE43E6225 /* EVTPhoneAreaCodeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,24 +672,47 @@
 		2B692E95B251A407C5BBB1989F8B9CCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EVTPhoneAreaCodeViewController;
-			target = F30B51B02DA039568943C0CEB96DF7BA /* EVTPhoneAreaCodeViewController */;
+			target = EEE89336267BDE575212842948422F3C /* EVTPhoneAreaCodeViewController */;
 			targetProxy = 1DC65D265AD2982071396B54F96FD11E /* PBXContainerItemProxy */;
 		};
 		3072723361ADBE8767018105E121545C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = 82E4006D290586F90AD6DA561B3E7D87 /* Masonry */;
+			target = A66D9C39F49408BFFB185165DDCE06E2 /* Masonry */;
 			targetProxy = 6B9B4C2041954CF2D3E77361FF4A3311 /* PBXContainerItemProxy */;
 		};
-		FF47FC92E7139188A767133F72858015 /* PBXTargetDependency */ = {
+		825A5058800E427AF00D5277F7D384AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EVTPhoneAreaCodeViewController-EVTPhoneAreaCodeViewController";
+			target = 12EB0CF10CA12604B8A6AA7CB8B04E9E /* EVTPhoneAreaCodeViewController-EVTPhoneAreaCodeViewController */;
+			targetProxy = D79D979B2BD11539742FD666AD8A1DC5 /* PBXContainerItemProxy */;
+		};
+		DF9EBBC6213B6D6D9EB6F1C49B5140F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = 82E4006D290586F90AD6DA561B3E7D87 /* Masonry */;
-			targetProxy = 199B414F5E137D1E9A94FC45B4961DEC /* PBXContainerItemProxy */;
+			target = A66D9C39F49408BFFB185165DDCE06E2 /* Masonry */;
+			targetProxy = 573BC0C3C9C0F0E03DF1FE0AF7CD4062 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00E69B4EB166A8A46A430575B8AE74B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B24A383BEAD353D029EBC537398F740 /* EVTPhoneAreaCodeViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EVTPhoneAreaCodeViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EVTPhoneAreaCodeViewController/ResourceBundle-EVTPhoneAreaCodeViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EVTPhoneAreaCodeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -727,7 +850,53 @@
 			};
 			name = Release;
 		};
-		45E84C4167E751DE62E38B89F5BD64BC /* Debug */ = {
+		6B94E191F9B76125FA88C559C081ED7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C5CC370794E966A821C7C7F2CD5E20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B24A383BEAD353D029EBC537398F740 /* EVTPhoneAreaCodeViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EVTPhoneAreaCodeViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EVTPhoneAreaCodeViewController/ResourceBundle-EVTPhoneAreaCodeViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EVTPhoneAreaCodeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7ABEA3E8A3ED630F33B21B735274023D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
 			buildSettings = {
@@ -748,6 +917,35 @@
 				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3466A7F3C1238051B0BD6C3FC2EC3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B24A383BEAD353D029EBC537398F740 /* EVTPhoneAreaCodeViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EVTPhoneAreaCodeViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EVTPhoneAreaCodeViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -798,93 +996,6 @@
 			};
 			name = Debug;
 		};
-		D837D81F50DA6DB355C3435D371ED128 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 530A3421F28AE1F9DBC8D259925A9538 /* EVTPhoneAreaCodeViewController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EVTPhoneAreaCodeViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EVTPhoneAreaCodeViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DCB58680D2C8AA73272E352C879EC7F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 530A3421F28AE1F9DBC8D259925A9538 /* EVTPhoneAreaCodeViewController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EVTPhoneAreaCodeViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = EVTPhoneAreaCodeViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E020D2C1148B22353517818C7E542A30 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		FA910370A2449715C79F352585BD5D76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ADC3DF63BE10ACC7BC37FF570AC2173C /* Pods-EVTPhoneAreaCodeViewController_Tests.debug.xcconfig */;
@@ -918,14 +1029,43 @@
 			};
 			name = Debug;
 		};
+		FFC55A7C44E9A43D9627FD4095A26BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B24A383BEAD353D029EBC537398F740 /* EVTPhoneAreaCodeViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EVTPhoneAreaCodeViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EVTPhoneAreaCodeViewController/EVTPhoneAreaCodeViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EVTPhoneAreaCodeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2509AD5BFF7958BBF5BCCCA1FD46A6A5 /* Build configuration list for PBXNativeTarget "EVTPhoneAreaCodeViewController" */ = {
+		1AAAAE86B3EDD61C827112E4F02835BF /* Build configuration list for PBXNativeTarget "EVTPhoneAreaCodeViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCB58680D2C8AA73272E352C879EC7F0 /* Debug */,
-				D837D81F50DA6DB355C3435D371ED128 /* Release */,
+				B3466A7F3C1238051B0BD6C3FC2EC3B2 /* Debug */,
+				FFC55A7C44E9A43D9627FD4095A26BF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -935,6 +1075,24 @@
 			buildConfigurations = (
 				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
 				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7FE530A07D05B5102F7DD4BCEB2CEF /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABEA3E8A3ED630F33B21B735274023D /* Debug */,
+				6B94E191F9B76125FA88C559C081ED7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAC94D8EA7817C73EABA49F0387AAE9 /* Build configuration list for PBXNativeTarget "EVTPhoneAreaCodeViewController-EVTPhoneAreaCodeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E69B4EB166A8A46A430575B8AE74B1 /* Debug */,
+				6C5CC370794E966A821C7C7F2CD5E20D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -953,15 +1111,6 @@
 			buildConfigurations = (
 				FA910370A2449715C79F352585BD5D76 /* Debug */,
 				2F5A0AFA92782ACEC41878FBECA34614 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E882E8FE99ADAF012BA7DC6AEED2FB60 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45E84C4167E751DE62E38B89F5BD64BC /* Debug */,
-				E020D2C1148B22353517818C7E542A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

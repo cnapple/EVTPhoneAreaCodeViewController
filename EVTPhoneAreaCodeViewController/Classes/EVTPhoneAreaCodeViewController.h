@@ -23,7 +23,10 @@
 @property (strong,nonatomic) UIColor *tableViewSeparatorColor;
 
 @property (copy,nonatomic) NSString *title;
+@property (copy,nonatomic) NSString *titleEn;
 @property (copy,nonatomic) NSString *searchBarPlaceHolder;
+@property (copy,nonatomic) NSString *searchBarPlaceHolderEn;
+
 @property (strong,nonatomic) UIColor *searchBarTintColor;
 @property (strong,nonatomic) UIColor *searchBarBackgroundColor;
 

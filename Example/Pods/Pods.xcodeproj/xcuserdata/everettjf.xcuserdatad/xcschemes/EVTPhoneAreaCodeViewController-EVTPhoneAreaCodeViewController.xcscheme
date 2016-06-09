@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A66D9C39F49408BFFB185165DDCE06E2'
-               BlueprintName = 'Masonry'
+               BlueprintIdentifier = '12EB0CF10CA12604B8A6AA7CB8B04E9E'
+               BlueprintName = 'EVTPhoneAreaCodeViewController-EVTPhoneAreaCodeViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Masonry.framework'>
+               BuildableName = 'EVTPhoneAreaCodeViewController.bundle'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
