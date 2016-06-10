@@ -22,56 +22,101 @@
     self = [super init];
     if (self) {
         _backgroundColor = UIColorFromRGBA(0x8ee2d3, 1.0);
-        
         _sectionBackgroundColor = UIColorFromRGBA(0xf0f7f6, 1.0);
         _sectionForegroundColor = UIColorFromRGBA(0x808080, 1.0);
-        _sectionFont = [UIFont systemFontOfSize:18];
-        _sectionHeight = 25;
-        
         _tableViewBackgroundColor = UIColorFromRGBA(0xf0f7f6, 1.0);
         _tableViewSeparatorColor = UIColorFromRGBA(0xc8c7cc, 1.0);
-        
         _sectionIndexBackgroundColor = [UIColor clearColor];
         _sectionIndexColor = UIColorFromRGBA(0x6a6677, 1.0);
-        
-        _title = @"选择分区号";
-        _titleEn = @"Choose Area Code";
-        
-        _searchBarPlaceHolder = @"搜索";
-        _searchBarPlaceHolderEn = @"Search";
-        
         _searchBarTintColor = [UIColor whiteColor];
         _searchBarBackgroundColor = UIColorFromRGBA(0xf0f7f6, 1.0);
+        
+        _sectionFont = [UIFont systemFontOfSize:18];
+        _sectionHeight = 25;
+        _title = @"选择分区号";
+        _titleEn = @"Choose Area Code";
+        _searchBarPlaceHolder = @"搜索";
+        _searchBarPlaceHolderEn = @"Search";
     }
     return self;
 }
 
++ (EVTPhoneAreaCodeViewControllerTheme *)defaultTheme{
+    EVTPhoneAreaCodeViewControllerTheme *t = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
+    return t;
+}
+
 + (EVTPhoneAreaCodeViewControllerTheme *)whiteTheme{
     EVTPhoneAreaCodeViewControllerTheme *t = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
+    t.backgroundColor = [UIColor whiteColor];
+    t.sectionBackgroundColor = [UIColor whiteColor];
+    t.sectionForegroundColor = [UIColor blackColor];
+    t.tableViewBackgroundColor = [UIColor whiteColor];
+    t.tableViewSeparatorColor = [UIColor blackColor];
+    t.sectionIndexBackgroundColor = [UIColor clearColor];
+    t.sectionIndexColor = [UIColor blackColor];
+    t.searchBarTintColor = [UIColor whiteColor];
+    t.searchBarBackgroundColor = [UIColor whiteColor];
     
     return t;
 }
 
 + (EVTPhoneAreaCodeViewControllerTheme *)grayTheme{
     EVTPhoneAreaCodeViewControllerTheme *t = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
+    t.backgroundColor = [UIColor grayColor];
+    t.sectionBackgroundColor = [UIColor grayColor];
+    t.sectionForegroundColor = [UIColor whiteColor];
+    t.tableViewBackgroundColor = [UIColor grayColor];
+    t.tableViewSeparatorColor = [UIColor blackColor];
+    t.sectionIndexBackgroundColor = [UIColor clearColor];
+    t.sectionIndexColor = [UIColor grayColor];
+    t.searchBarTintColor = [UIColor grayColor];
+    t.searchBarBackgroundColor = [UIColor whiteColor];
     
     return t;
 }
 
 + (EVTPhoneAreaCodeViewControllerTheme *)greenTheme{
     EVTPhoneAreaCodeViewControllerTheme *t = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
+    t.backgroundColor = [UIColor greenColor];
+    t.sectionBackgroundColor = [UIColor greenColor];
+    t.sectionForegroundColor = [UIColor whiteColor];
+    t.tableViewBackgroundColor = [UIColor greenColor];
+    t.tableViewSeparatorColor = [UIColor blackColor];
+    t.sectionIndexBackgroundColor = [UIColor clearColor];
+    t.sectionIndexColor = [UIColor greenColor];
+    t.searchBarTintColor = [UIColor greenColor];
+    t.searchBarBackgroundColor = [UIColor whiteColor];
     
     return t;
 }
 
 + (EVTPhoneAreaCodeViewControllerTheme *)redTheme{
     EVTPhoneAreaCodeViewControllerTheme *t = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
+    t.backgroundColor = [UIColor redColor];
+    t.sectionBackgroundColor = [UIColor redColor];
+    t.sectionForegroundColor = [UIColor whiteColor];
+    t.tableViewBackgroundColor = [UIColor redColor];
+    t.tableViewSeparatorColor = [UIColor blackColor];
+    t.sectionIndexBackgroundColor = [UIColor clearColor];
+    t.sectionIndexColor = [UIColor redColor];
+    t.searchBarTintColor = [UIColor redColor];
+    t.searchBarBackgroundColor = [UIColor whiteColor];
     
     return t;
 }
 
 + (EVTPhoneAreaCodeViewControllerTheme *)orangeTheme{
     EVTPhoneAreaCodeViewControllerTheme *t = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
+    t.backgroundColor = [UIColor orangeColor];
+    t.sectionBackgroundColor = [UIColor orangeColor];
+    t.sectionForegroundColor = [UIColor whiteColor];
+    t.tableViewBackgroundColor = [UIColor orangeColor];
+    t.tableViewSeparatorColor = [UIColor blackColor];
+    t.sectionIndexBackgroundColor = [UIColor clearColor];
+    t.sectionIndexColor = [UIColor orangeColor];
+    t.searchBarTintColor = [UIColor orangeColor];
+    t.searchBarBackgroundColor = [UIColor whiteColor];
     
     return t;
 }
