@@ -7,7 +7,6 @@
 //
 
 #import "EVTPhoneAreaCodeViewController.h"
-#import "Masonry.h"
 
 #define UIColorFromRGBA(rgbValue, alphaValue) \
     [UIColor \
@@ -45,6 +44,36 @@
         _searchBarBackgroundColor = UIColorFromRGBA(0xf0f7f6, 1.0);
     }
     return self;
+}
+
++ (EVTPhoneAreaCodeViewControllerTheme *)whiteTheme{
+    EVTPhoneAreaCodeViewControllerTheme *t = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
+    
+    return t;
+}
+
++ (EVTPhoneAreaCodeViewControllerTheme *)grayTheme{
+    EVTPhoneAreaCodeViewControllerTheme *t = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
+    
+    return t;
+}
+
++ (EVTPhoneAreaCodeViewControllerTheme *)greenTheme{
+    EVTPhoneAreaCodeViewControllerTheme *t = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
+    
+    return t;
+}
+
++ (EVTPhoneAreaCodeViewControllerTheme *)redTheme{
+    EVTPhoneAreaCodeViewControllerTheme *t = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
+    
+    return t;
+}
+
++ (EVTPhoneAreaCodeViewControllerTheme *)orangeTheme{
+    EVTPhoneAreaCodeViewControllerTheme *t = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
+    
+    return t;
 }
 
 @end
@@ -106,12 +135,6 @@
     searchBar.tintColor = UIColorFromRGBA(0x808080, 1.0);
     searchBar.searchBarStyle = UISearchBarStyleMinimal;
     [self.view addSubview:searchBar];
-    [searchBar mas_makeConstraints:^(MASConstraintMaker *make){
-        make.left.equalTo(self.view);
-        make.right.equalTo(self.view);
-        make.height.equalTo(@44);
-        make.top.equalTo(self.mas_topLayoutGuide);
-    }];
     
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
@@ -134,16 +157,22 @@
         _tableView.sectionIndexColor = _theme.sectionIndexColor;
     if(_theme.tableViewBackgroundColor)
         _tableView.backgroundColor = _theme.tableViewBackgroundColor;
-    
     [self.view addSubview:_tableView];
     
-    [_tableView mas_makeConstraints:^(MASConstraintMaker *make){
-        make.left.equalTo(self.view);
-        make.right.equalTo(self.view);
-        make.bottom.equalTo(self.view);
-        make.top.equalTo(searchBar.mas_bottom);
-    }];
+    // layout
+    searchBar.translatesAutoresizingMaskIntoConstraints = NO;
+    _tableView.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:searchBar attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.topLayoutGuide attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:searchBar attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:searchBar attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeRight multiplier:1.0 constant:0]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:searchBar attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:44.0]];
+    
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:_tableView attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:searchBar attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:_tableView attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:_tableView attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeRight multiplier:1.0 constant:0]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:_tableView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0]];
 }
+
 
 - (NSString *)_readFromFrameworkBundle:(NSString*)resource{
     NSBundle *bundle = [NSBundle bundleForClass:[EVTPhoneAreaCode class]];

@@ -30,6 +30,14 @@
 @property (strong,nonatomic) UIColor *searchBarTintColor;
 @property (strong,nonatomic) UIColor *searchBarBackgroundColor;
 
+- (instancetype)init;
+
++ (EVTPhoneAreaCodeViewControllerTheme*)whiteTheme;
++ (EVTPhoneAreaCodeViewControllerTheme*)grayTheme;
++ (EVTPhoneAreaCodeViewControllerTheme*)greenTheme;
++ (EVTPhoneAreaCodeViewControllerTheme*)redTheme;
++ (EVTPhoneAreaCodeViewControllerTheme*)orangeTheme;
+
 @end
 
 @interface EVTPhoneAreaCodeViewController : UIViewController

@@ -1,7 +1,5 @@
 PODS:
-  - EVTPhoneAreaCodeViewController (0.1.0):
-    - Masonry (~> 1.0)
-  - Masonry (1.0.1)
+  - EVTPhoneAreaCodeViewController (0.1.0)
 
 DEPENDENCIES:
   - EVTPhoneAreaCodeViewController (from `../`)
@@ -11,8 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EVTPhoneAreaCodeViewController: 3aae4e56fddb00fb32e33cba2e7f56f6198ac19d
-  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  EVTPhoneAreaCodeViewController: 347672a34ee05d1807d6cdfb437d9042aa8ee12b
 
 PODFILE CHECKSUM: 60034dc0f2e1cde713319be2c7bfe9d58875389f
 
