@@ -23,26 +23,40 @@ You could customize lot of properties by giving the theme class.
 
 ```
 @interface EVTPhoneAreaCodeViewControllerTheme : NSObject
+// Background
 @property (strong,nonatomic) UIColor *backgroundColor;
 
+// Section
 @property (strong,nonatomic) UIColor *sectionBackgroundColor;
 @property (strong,nonatomic) UIColor *sectionForegroundColor;
 @property (assign,nonatomic) CGFloat sectionHeight;
 @property (strong,nonatomic) UIFont *sectionFont;
 
+// Section Index
 @property (strong,nonatomic) UIColor *sectionIndexBackgroundColor;
 @property (strong,nonatomic) UIColor *sectionIndexColor;
 
+// TableView
 @property (strong,nonatomic) UIColor *tableViewBackgroundColor;
 @property (strong,nonatomic) UIColor *tableViewSeparatorColor;
 
+// ViewController
 @property (copy,nonatomic) NSString *title;
 @property (copy,nonatomic) NSString *titleEn;
+
+// SearchBar
 @property (copy,nonatomic) NSString *searchBarPlaceHolder;
 @property (copy,nonatomic) NSString *searchBarPlaceHolderEn;
-
 @property (strong,nonatomic) UIColor *searchBarTintColor;
 @property (strong,nonatomic) UIColor *searchBarBackgroundColor;
+
++ (EVTPhoneAreaCodeViewControllerTheme*)defaultTheme;
++ (EVTPhoneAreaCodeViewControllerTheme*)whiteTheme;
++ (EVTPhoneAreaCodeViewControllerTheme*)grayTheme;
++ (EVTPhoneAreaCodeViewControllerTheme*)greenTheme;
++ (EVTPhoneAreaCodeViewControllerTheme*)redTheme;
++ (EVTPhoneAreaCodeViewControllerTheme*)orangeTheme;
+
 @end
 
 EVTPhoneAreaCodeViewControllerTheme *theme = [[EVTPhoneAreaCodeViewControllerTheme alloc]init];
