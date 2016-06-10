@@ -1,5 +1,5 @@
 PODS:
-  - EVTPhoneAreaCodeViewController (0.1.0)
+  - EVTPhoneAreaCodeViewController (1.0.0)
 
 DEPENDENCIES:
   - EVTPhoneAreaCodeViewController (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EVTPhoneAreaCodeViewController: 347672a34ee05d1807d6cdfb437d9042aa8ee12b
+  EVTPhoneAreaCodeViewController: 56ce68c473141bb3810a670bc830c1ec1d4fea35
 
 PODFILE CHECKSUM: 60034dc0f2e1cde713319be2c7bfe9d58875389f
 
